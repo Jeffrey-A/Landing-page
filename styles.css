@@ -6,7 +6,7 @@ body{
 
 h1{
     z-index: 50;
-    font-size: 12vh;
+    font-size: 70px;
     color: #fff;
     font-weight: 500;
     position: absolute;
@@ -203,36 +203,34 @@ footer{
 
 /* RESPONSIVE */
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:1025px){
     h1{
-        font-size: 10vh;
-    }
-}
-
-@media screen and (max-width:877px){
-    h1{
-        font-size: 8vh;
-    }
-}
-
-@media screen and (max-width:704px){
-    h1{
-        font-size: 6vh;
+        font-size: 40px;
         text-shadow: 1px 1px 5px #000;
     }
 }
 
-@media screen and (max-width:532px){
-    h1{
-        font-size: 5vh;
-    }
-}
  
-@media screen and (max-width:446px){
+@media screen and (max-width:426px){
     h1{
-        font-size: 4vh;
+        font-size: 25px;
+    }
+}  
+
+@media screen and (max-width:376px){
+    h1{
+        font-size: 20px;
+        top: 40%;
+    }
+}  
+
+@media screen and (max-width:321px){
+    h1{
+        font-size: 15px;
+        top: 45%;
     }
 } 
+
 @media screen and (max-width:914px){
     #middle-pack{
         margin: 10px 0px;
